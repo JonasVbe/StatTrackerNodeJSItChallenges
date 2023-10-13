@@ -22,7 +22,7 @@ jobs:
 
     - name: imstall, build and test
       run: |
-        npm cli
+        npm install
         npm run build --if-present
         npm run test:coverage
         
